@@ -1,0 +1,28 @@
+HOMEWORK1
+1.	How would you define Machine Learning?
+Machine learning is a system that investigates the work and construction of predictive algorithms that are learned and given as functions. They work by developing a model to make data-based targets and make decisions in order to perform program instructions with such algorithms.
+2.	What are the differences between Supervised and Unsupervised Learning? Specify example 3 algorithms for each of these.
+Supervised:
+In this learning technique, a function that matches between input values and desired output values is created.Training data consists of both inputs and outputs. This function can be determined by classification algorithms.If the outputs in the data set are categorical, classification algorithms are used, if numerical, regression algorithms are used.
+Linear Regression
+Naive Bayes
+Desicion Tree
+Unsupervised:
+In this method, it is a machine learning technique that uses an algorithm to predict an unknown structure over unmarked data.Here it is unclear to which class the input data belongs
+KNN
+Hierarchial
+Neural Networks
+
+3.	 What are the test and validation set, and why would you want to use them?
+Validation Dataset: The sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The evaluation becomes more biased as skill on the validation dataset is incorporated into the model configuration. The validation set is used for a particular model, but this is for frequency
+Test Dataset: The sample of data used to provide an unbiased evaluation of a final model fit on the training dataset. The Test dataset provides the gold standard used to evaluate the model. It is only used once a model is completely trained(using the train and validation sets).
+4.	What are the main preprocessing steps? Explain them in detail. Why we need to prepare our data?
+Preprocessing helps to clean, format, and organize the raw data, thereby making it ready-to-go for Machine Learning models.
+1. Acquire the dataset: To build and develop Machine Learning models, you must first acquire the relevant dataset. This dataset will be comprised of data gathered from multiple and disparate sources which are then combined in a proper format to form a dataset. Dataset formats differ according to use cases.
+2. Import all the crucial libraries
+3. Import the dataset
+4. Identifying and handling the missing values
+5. Encoding the categorical data
+6. Splitting the dataset
+7. Feature scaling
+5.	How you can explore countionus and discrete variables?
